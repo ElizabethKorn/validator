@@ -1,4 +1,4 @@
-import { isValidCardNumber } from "../src/сardValidator";
+import { isValidCardNumber } from "../src/cardValidator";
 
 describe("Проверка алгоритма Луна", () => {
   test("валидный номер Visa", () => {
