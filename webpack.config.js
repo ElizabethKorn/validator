@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: '/validator/',
+    publicPath: '',
     clean: true,
   },
   devServer: {
@@ -20,6 +20,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       filename: "index.html",
+      publicPath: './',
     }),
   ],
   module: {
