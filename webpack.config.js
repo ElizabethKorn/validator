@@ -5,13 +5,13 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "docs"),
     publicPath: '',
     clean: true,
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, "dist"),
+      directory: path.resolve(__dirname, "docs"),
     },
     port: 8080,
     open: true,
@@ -20,7 +20,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       filename: "index.html",
-      publicPath: './',
     }),
   ],
   module: {
