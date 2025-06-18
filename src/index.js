@@ -1,5 +1,5 @@
 import { getCardType } from "./cardType";
-import { isValidCardNumber } from "./CardValidator";
+import { isValidCardNumber } from "./сardValidator";
 import "./style.css";
 import visaLogo from "./images/visa.png";
 import mastercardLogo from "./images/mastercard.png";
